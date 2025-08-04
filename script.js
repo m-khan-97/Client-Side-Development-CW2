@@ -50,16 +50,3 @@ $(document).ready(function () {
     })
 
 })
-
-
-    // Get Value()
-    $('#getVal').click(function () {
-        const val = $('#nameInput').val();
-        $('#output').text('Input Value is :' + val)
-    });
-
-    // Set Value()
-    $('#setVal').click(function () {
-        $('#nameInput').val('Hari');
-    })
-
