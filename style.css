@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #0f0f0f;
+}
+
+header {
+  background-color: #0055a4;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://www.ulster.ac.uk/__data/assets/image/0027/1203699/UU23-1163-Website-Header-1920x768-v3.jpg') no-repeat center center/cover;
+  height: 400px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0055a4;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#timeDisplay {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
